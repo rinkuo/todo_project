@@ -1,85 +1,129 @@
-# TODO Project
+# 1. README.md faylini yaratish
+echo "# 🌟 TODO Project
 
-Bu loyiha foydalanuvchilarga vazifalarni qo'shish, boshqarish va kuzatishga imkon beruvchi oddiy TODO boshqaruv tizimidir. Django asosida ishlab chiqilgan va HTML yordamida vizual interfeys taqdim etilgan.
+![TODO Banner](https://github.com/user-attachments/assets/57910b3c-8d1b-4530-b680-fe7cf6f1eceb)  
+_Simple, elegant, and effective task management system._
+
+---
+
+## 🎯 Loyiha haqida
+
+TODO Project — bu foydalanuvchilarga vazifalarni qo'shish, boshqarish va kuzatib borishga imkon beruvchi **Django asosidagi** qulay tizimdir. Foydalanuvchilarga sodda interfeys va ma'lumotlarni samarali boshqarish imkoniyatlarini taqdim etadi.
+
+---
 
 ## 🚀 Texnologiyalar
 
-- **Django**: Veb-dastur ramkasi.
-- **HTML**: Veb-sahifa strukturasini yaratish uchun.
-- **CSS**: Sahifani bezash va dizayn qilish uchun.
-- **SQLite**: Ma'lumotlarni saqlash uchun o'rnatilgan bazaviy tizim.
+| Texnologiya  | Tavsif                                      |
+|--------------|---------------------------------------------|
+| **Django**   | Backend ramkasi                            |
+| **HTML**     | Interfeys yaratish uchun                   |
+| **CSS**      | Veb-sahifalarni bezash uchun               |
+| **SQLite**   | Ma'lumotlarni saqlash uchun o'rnatilgan DB |
+
+---
 
 ## 📥 O'rnatish va Ishga Tushirish
 
 Quyidagi bosqichlarni bajaring:
 
-1. **Repozitoriyani klonlang:**
+### 1️⃣ Repozitoriyani klonlash
 
-   ```bash
-   git clone https://github.com/rinkuo/todo-project.git
-   cd todo-project
-Virtual muhitni yarating va faollashtiring:
+```bash
+git clone https://github.com/rinkuo/todo-project.git
+cd todo-project
+```
 
-Linux/MacOS:
+### 2️⃣ Virtual muhitni sozlash va faollashtirish
+
+#### Linux/MacOS:
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-Windows:
+
+#### Windows:
+
 ```bash
 python -m venv venv
-venv\Scripts\activate
+venv\\Scripts\\activate
 ```
-Kerakli kutubxonani o'rnating:
+
+### 3️⃣ Kutubxonalarni o'rnatish
+
 ```bash
 pip install django
 ```
-Django serverini ishga tushuring:
+
+### 4️⃣ Django serverini ishga tushirish
+
 ```bash
 python manage.py runserver
-Brauzerda http://127.0.0.1:8000/ manzilini oching.
 ```
 
-📝 Asosiy Xususiyatlar
-Vazifalarni qo'shish, boshqarish va o'chirish.
-Vazifaning nomi, tavsifi, muhimlik darajasi va muddati ko'rsatiladi.
-HTML interfeys yordamida qulay ko'rinish.
+### 5️⃣ Brauzerda ochish
 
-📄 Struktura
-config/: Django asosiy sozlamalari.
-todo/: TODO ilovasi, unda vazifalar ro'yxati va funksionallik mavjud.
-manage.py: Django boshqaruv fayli.
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-📂 HTML Dizayni
-HTML sahifasi foydalanuvchilarga qulay interfeys taqdim etadi. Vazifalar ro'yxatini ko'rish va yangi vazifalarni qo'shish funksiyalari mavjud.
+---
 
-🔄 GitHub Branch Tartibi
-main branch: Asosiy kod.
-dev_1 branch: Yangi TODO ilovasini yaratish uchun ishlatiladi.
-dev_2 branch: Django loyihasi va asosiy sozlamalar.
+## 🎥 Loyihaning Demo Videosi
 
-👥 Loyihada Ishlash
-Branch yaratib o'zgartirishlar kiriting:
-```bash
-git checkout -b yangi-branch
+> 🔗 [Loyihaning demo videosini bu yerdan tomosha qiling](https://youtu.be/dQw4w9WgXcQ)
+
+---
+
+## 📝 Asosiy Xususiyatlar
+
+- ✅ Vazifalarni qo'shish, boshqarish va o'chirish.
+- 📋 Vazifalar ro'yxatini tartib bilan ko'rsatish.
+- 🕒 Muddatlarni boshqarish.
+- 🌟 HTML interfeys yordamida qulay foydalanish.
+
+---
+
+## 📂 Loyihaning Struktura
+
+```plaintext
+├── config/               # Django asosiy sozlamalari
+├── todo/                 # TODO ilovasi
+├── db.sqlite3            # Ma'lumotlar bazasi
+├── manage.py             # Django boshqaruv fayli
+├── static/               # Statik fayllar (CSS, JS, Images)
+├── templates/            # HTML shablonlar
+└── README.md             # Loyihaning tavsifi
 ```
-O'zgartirishlarni commit qiling:
-```bash
-git add .
-git commit -m "O'zgartirish nomi"
+
+---
+
+## 🌐 Branch Tartibi
+
+- **\`main\`**: Asosiy kod.
+- **\`dev_1\`**: Yangi TODO ilovasini ishlab chiqish uchun.
+- **\`dev_2\`**: Django asosiy sozlamalari uchun.
+
+---
+
+## 👥 Mualliflar
+
+Bu loyiha quyidagi dasturchilar tomonidan ishlab chiqilgan:
+
+- 🎨 **[rinkuo](https://github.com/rinkuo)**  
+- 🛠️ **[Samandar005](https://github.com/Samandar005)**
+
+---
+
+## 📜 Litsenziya
+
+Ushbu loyiha Astrum litsenziyasi ostida tarqatiladi.
+
+---
+
+# 2. GitHub-ga yuklash
 ```
-Pull request yuboring va asosiy branchga birlashtiring.
-
-📌 Mualliflar
-
-Loyiha <a href="https://github.com/rinkuo">rinkuo</a> va <a href="https://github.com/Samandar005">Samandar005</a> tomonidan ishlab chiqligan.
-
-📜 Litsenziya
-MIT Litsenziyasi asosida tarqatiladi.
-Ushbu matnni `README.md` fayliga joylashtiring. Faylni GitHub repozitoriyasiga qo'shishni unutmang: 
-
-```bash
 git add README.md
 git commit -m "README.md fayli qo'shildi"
 git push origin main
 ```
+<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />  
