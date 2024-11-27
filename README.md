@@ -1,5 +1,4 @@
-# 1. README.md faylini yaratish
-echo "# 🌟 TODO Project
+### 🌟 TODO Project
 
 ![TODO Banner](https://github.com/user-attachments/assets/57910b3c-8d1b-4530-b680-fe7cf6f1eceb)  
 _Simple, elegant, and effective task management system._
